@@ -22,6 +22,11 @@
     * Write one page object method in each page object file to verify the element is visible.
 * Write a test that clicks on each item in the top nav and verifies the correct page loads
 
+### Implement a data provider
+* Create a data provider in the test file using [this tutorial](https://toolsqa.com/testng/testng-dataproviders/)
+* Populate it with "Selenium", "Mocha", and "RestAssured"
+* Put the DataProvider on the search() test
+* Refactor the test to run by passing in search terms from the dataprovider
 
 ### Test a Product Page
 * Define the IntelliJ option in the Product Page
