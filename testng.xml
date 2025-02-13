@@ -1,0 +1,8 @@
+<test name="Regression1">
+    <groups>
+        <run>
+            <exclude name="brokenTests"/>
+            <include name="checkinTests"/>
+        </run>
+    </groups>
+</test>
